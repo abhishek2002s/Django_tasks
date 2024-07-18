@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+img{
+    height: 100px;
+    width: 75%;
+    object-fit: cover;
+ }

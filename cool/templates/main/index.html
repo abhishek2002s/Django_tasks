@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swag</title>
+    <link rel="stylesheet" href="{% static 'cool/CSS/swag.css' %}">
+    <link rel="stylesheet" href="{% static 'cool/CSS/common.css' %}">
+
+</head>
+<body>
+    <div class="wrapper">
+        <img src="{% static '/cool/Image/common.jpg'%}" alt="">
+    <div class="box">
+       <h1>Swag Hai</h1>
+       <img src="{% static '/cool/Image/swag.jpg'%}" alt="image">
+    </div>
+    </div>
+    <script src="{% static 'cool/JS/common.js' %}"></script>
+    <script src="{% static 'cool/JS/swag.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.wrapper{
+     height: 100vh;
+     width: 100%;
+     background-color: crimson;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+
+ .box{
+    padding: 10px;
+     height: 350px;
+     width: 200px;
+     border-radius: 20px;
+     background-color: rgb(63, 58, 47);
+     color: #fff;
+     display: flex;
+
+ }
+
