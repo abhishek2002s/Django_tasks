@@ -1,0 +1,28 @@
+{% load static %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> make some Custom Filters</title>
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <h1>Lets starts Filters</h1>
+            <br>
+            <p>5 Add  2 is {{ 5|add:2 }}</p>
+
+        </div>
+        <div class="box">
+            <h1> Filter-2</h1>
+            <br>
+            <p>The word 'hello' in uppercase is {{ 'hello'|to_upper }}</p>
+        </div>
+
+    </div>
+</body>
+</html>

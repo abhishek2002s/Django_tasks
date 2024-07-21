@@ -6,6 +6,7 @@ urlpatterns = [
 
     path('', home),
     path('swag/',swag),
+    path('filters/',Filter),
     path('swag/me/',home),
     path('swag/me/and/you/',swagmeandyou),
     path('admin/', admin.site.urls),

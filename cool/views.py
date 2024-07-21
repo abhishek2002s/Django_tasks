@@ -3,6 +3,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 
+def Filter(request):
+    return render(request, 'main/filter.html')
 
 def home(request):
     return HttpResponse("<h1>Django Task-2</h1>")
